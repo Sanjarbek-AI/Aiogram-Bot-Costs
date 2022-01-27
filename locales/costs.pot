@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-27 11:41+0500\n"
+"POT-Creation-Date: 2022-01-27 17:09+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,4 +16,132 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/default_commands.py:12
+msgid "Welcome !!!"
+msgstr ""
+
+#: handlers/users/default_commands.py:18
+msgid ""
+"Welcome to our service bot ! \n"
+"\n"
+" This bot can help to you to calculating all your incomes andexpenses day"
+" by day. If you want to take more information, /help"
+msgstr ""
+
+#: handlers/users/default_commands.py:23
+msgid "Try again later, Please"
+msgstr ""
+
+#: handlers/users/default_commands.py:30
+msgid ""
+"My service 🤖 \n"
+" \n"
+"1. Taking incomes and giving them as a list. \n"
+"\n"
+"2. Giving incomes daily, weekly, monthly and yearly. \n"
+"\n"
+"3. Taking expenses and giving them as a list. \n"
+"\n"
+"4. Giving expenses daily, weekly, monthly and yearly. \n"
+"\n"
+"5. Giving changes in your costs. \n"
+"\n"
+"6. Giving statistics what you  spend more. \n"
+"\n"
+"7. Planning your costs and giving notification about it. \n"
+"\n"
+"\n"
+"And giving you more great mood. Smile 😁 \n"
+msgstr ""
+
+#: handlers/users/expense.py:13
+msgid "Please, enter what you spent money."
+msgstr ""
+
+#: handlers/users/expense.py:24
+msgid "Please, enter price of it. (Sum)"
+msgstr ""
+
+#: handlers/users/expense.py:38
+msgid "Added to your expense list."
+msgstr ""
+
+#: handlers/users/expense.py:41 handlers/users/income.py:40
+msgid "Not added, please try again."
+msgstr ""
+
+#: handlers/users/expense.py:49
+msgid "How long do you want to see the expenses."
+msgstr ""
+
+#: handlers/users/income.py:12
+msgid "Please, enter source of money which you want to enter."
+msgstr ""
+
+#: handlers/users/income.py:23
+msgid "Please, enter amount of money. (Sum)"
+msgstr ""
+
+#: handlers/users/income.py:37
+msgid "Added to your income list."
+msgstr ""
+
+#: handlers/users/income.py:48
+msgid "How long do you want to see the income."
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:10
+msgid "Income 💸"
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:11
+msgid "Expense 💶"
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:14
+msgid "Get Income 💸"
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:15
+msgid "Get Expense 💶"
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:18
+msgid "Suggestion 🤓"
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:19
+msgid "Profile 👤"
+msgstr ""
+
+#: keyboards/users/inline_keyboards/expense.py:9
+#: keyboards/users/inline_keyboards/income.py:9
+msgid "Daily"
+msgstr ""
+
+#: keyboards/users/inline_keyboards/expense.py:10
+#: keyboards/users/inline_keyboards/income.py:10
+msgid "Weekly"
+msgstr ""
+
+#: keyboards/users/inline_keyboards/expense.py:13
+#: keyboards/users/inline_keyboards/income.py:13
+msgid "Monthly"
+msgstr ""
+
+#: keyboards/users/inline_keyboards/expense.py:14
+#: keyboards/users/inline_keyboards/income.py:14
+msgid "Yearly"
+msgstr ""
+
+#: keyboards/users/inline_keyboards/expense.py:17
+#: keyboards/users/inline_keyboards/income.py:17
+msgid "All"
+msgstr ""
+
+#: keyboards/users/inline_keyboards/expense.py:18
+#: keyboards/users/inline_keyboards/income.py:18
+msgid "Add New"
+msgstr ""
 

@@ -10,4 +10,4 @@ async def notify_admins(dp: Dispatcher):
             await dp.bot.send_message(admin, "Bot start to work")
         except Exception as exc:
             logging.exception(exc)
-            # await dp.bot.send_message(admin, str(exc))
+            # await dp.bot.send_message(admins, str(exc))

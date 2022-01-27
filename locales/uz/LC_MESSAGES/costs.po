@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-27 11:41+0500\n"
+"POT-Creation-Date: 2022-01-27 17:09+0500\n"
 "PO-Revision-Date: 2022-01-27 11:42+0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uz\n"
@@ -17,4 +17,136 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
+
+#: handlers/users/default_commands.py:12
+msgid "Welcome !!!"
+msgstr "Xush kelibsiz !!!"
+
+#: handlers/users/default_commands.py:18
+msgid ""
+"Welcome to our service bot ! \n"
+"\n"
+" This bot can help to you to calculating all your incomes andexpenses day"
+" by day. If you want to take more information, /help"
+msgstr ""
+"Botga xush kelibsiz ! \n"
+"\n"
+" Bu bot sizning kirim va chiqimlaringizni boshqarish vaulardan kelib "
+"chiqqan holda pullaringizni tog'ri sarflashingizga yordam beradi., /help"
+
+#: handlers/users/default_commands.py:23
+msgid "Try again later, Please"
+msgstr "Birozdan so'ng qayta urinib ko'ring."
+
+#: handlers/users/default_commands.py:30
+msgid ""
+"My service 🤖 \n"
+" \n"
+"1. Taking incomes and giving them as a list. \n"
+"\n"
+"2. Giving incomes daily, weekly, monthly and yearly. \n"
+"\n"
+"3. Taking expenses and giving them as a list. \n"
+"\n"
+"4. Giving expenses daily, weekly, monthly and yearly. \n"
+"\n"
+"5. Giving changes in your costs. \n"
+"\n"
+"6. Giving statistics what you  spend more. \n"
+"\n"
+"7. Planning your costs and giving notification about it. \n"
+"\n"
+"\n"
+"And giving you more great mood. Smile 😁 \n"
+msgstr ""
+
+#: handlers/users/expense.py:13
+msgid "Please, enter what you spent money."
+msgstr "Nima uchun sarfladingiz ?"
+
+#: handlers/users/expense.py:24
+msgid "Please, enter price of it. (Sum)"
+msgstr "Qancha sarfladingiz ? (So'm)"
+
+#: handlers/users/expense.py:38
+msgid "Added to your expense list."
+msgstr "Chiqimlar listingizga qo'shildi."
+
+#: handlers/users/expense.py:41 handlers/users/income.py:40
+msgid "Not added, please try again."
+msgstr "Habar qabul qilinmadi. Qayta urinib ko'ring."
+
+#: handlers/users/expense.py:49
+msgid "How long do you want to see the expenses."
+msgstr ""
+
+#: handlers/users/income.py:12
+msgid "Please, enter source of money which you want to enter."
+msgstr "Qayerdan kirim keldi ?"
+
+#: handlers/users/income.py:23
+msgid "Please, enter amount of money. (Sum)"
+msgstr "Kirim miqdori qancha ?"
+
+#: handlers/users/income.py:37
+msgid "Added to your income list."
+msgstr "Kirimlar listingizga qo'shildi."
+
+#: handlers/users/income.py:48
+msgid "How long do you want to see the income."
+msgstr ""
+
+#: keyboards/users/default_keyboards/defaults.py:10
+msgid "Income 💸"
+msgstr "Kirim 💸"
+
+#: keyboards/users/default_keyboards/defaults.py:11
+msgid "Expense 💶"
+msgstr "Chiqim 💶"
+
+#: keyboards/users/default_keyboards/defaults.py:14
+msgid "Get Income 💸"
+msgstr "Kirimlar 💸"
+
+#: keyboards/users/default_keyboards/defaults.py:15
+msgid "Get Expense 💶"
+msgstr "Chiqimlar 💶"
+
+#: keyboards/users/default_keyboards/defaults.py:18
+msgid "Suggestion 🤓"
+msgstr "Taklif 🤓"
+
+#: keyboards/users/default_keyboards/defaults.py:19
+msgid "Profile 👤"
+msgstr "Profil 👤"
+
+#: keyboards/users/inline_keyboards/expense.py:9
+#: keyboards/users/inline_keyboards/income.py:9
+msgid "Daily"
+msgstr "Kunlik"
+
+#: keyboards/users/inline_keyboards/expense.py:10
+#: keyboards/users/inline_keyboards/income.py:10
+msgid "Weekly"
+msgstr "Haftalik"
+
+#: keyboards/users/inline_keyboards/expense.py:13
+#: keyboards/users/inline_keyboards/income.py:13
+msgid "Monthly"
+msgstr "Oylik"
+
+#: keyboards/users/inline_keyboards/expense.py:14
+#: keyboards/users/inline_keyboards/income.py:14
+msgid "Yearly"
+msgstr "Yillik"
+
+#: keyboards/users/inline_keyboards/expense.py:17
+#: keyboards/users/inline_keyboards/income.py:17
+msgid "All"
+msgstr "Hammasi"
+
+#: keyboards/users/inline_keyboards/expense.py:18
+#: keyboards/users/inline_keyboards/income.py:18
+msgid "Add New"
+msgstr "Yangi qo'shish"
 

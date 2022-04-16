@@ -24,3 +24,13 @@ class PlanStatus(str, Enum):
 class SuggestionStatus(str, Enum):
     active = "active"
     inactive = "inactive"
+
+
+class IncomeNotif(str, Enum):
+    on = "on"
+    off = "off"
+
+
+class ExpenseNotif(str, Enum):
+    on = "on"
+    off = "off"

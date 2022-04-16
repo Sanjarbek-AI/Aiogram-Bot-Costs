@@ -1,7 +1,8 @@
 import sqlalchemy
 from sqlalchemy import DateTime, Enum
 
-from main.constants import UserStatus, IncomeStatus, ExpenseStatus, PlanStatus, SuggestionStatus
+from main.constants import UserStatus, IncomeStatus, ExpenseStatus, PlanStatus, SuggestionStatus, IncomeNotif, \
+    ExpenseNotif
 from main.database import metadata
 
 Users = sqlalchemy.Table(
@@ -17,8 +18,10 @@ Users = sqlalchemy.Table(
     sqlalchemy.Column("city", sqlalchemy.String, nullable=True),
     sqlalchemy.Column("district", sqlalchemy.String, nullable=True),
     sqlalchemy.Column("village", sqlalchemy.String, nullable=True),
-    sqlalchemy.Column("language", sqlalchemy.String),
+    sqlalchemy.Column("language", sqlalchemy.String, nullable=True),
     sqlalchemy.Column("status", Enum(UserStatus), default=UserStatus.inactive),
+    sqlalchemy.Column("income_notif", Enum(IncomeNotif), default=IncomeNotif.off),
+    sqlalchemy.Column("expense_notif", Enum(ExpenseNotif), default=ExpenseNotif.on),
     sqlalchemy.Column('created_at', DateTime(timezone=True)),
     sqlalchemy.Column('updated_at', DateTime(timezone=True), nullable=True)
 )

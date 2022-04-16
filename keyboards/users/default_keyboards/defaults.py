@@ -1,6 +1,6 @@
-from loader import _
-
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
+from loader import _
 
 
 async def user_menu_def():
@@ -35,3 +35,14 @@ async def cancel_def():
     )
     return cancel_key
 
+
+async def main_menu_def():
+    main_menu = ReplyKeyboardMarkup(
+        keyboard=[
+            [
+                KeyboardButton(text=_("Main menu ⏹"))
+            ]
+        ],
+        resize_keyboard=True
+    )
+    return main_menu

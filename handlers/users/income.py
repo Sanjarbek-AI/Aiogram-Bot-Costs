@@ -1,6 +1,5 @@
 from aiogram import types
 from aiogram.dispatcher import FSMContext
-from aiogram.types import ReplyKeyboardRemove
 
 from keyboards.users.default_keyboards.defaults import *
 from keyboards.users.inline_keyboards.income import *
@@ -12,7 +11,7 @@ from utils.db_commands import *
 @dp.message_handler(text=["Income 💸", "Доход 💸", "Kirim 💸"])
 async def income(message: types.Message):
     text = _("Please, enter source of money which you want to enter.")
-    await message.answer(text, reply_markup=ReplyKeyboardRemove())
+    await message.answer(text, reply_markup=await cancel_def())
     await GetIncome.source.set()
 
 
@@ -30,7 +29,7 @@ async def get_income_source(message: types.Message, state: FSMContext):
 @dp.message_handler(state=GetIncome.amount)
 async def get_amount_of_income(message: types.Message, state: FSMContext):
     await state.update_data({
-        "amount": message.text
+        "amount": float(message.text)
     })
     data = await state.get_data()
     new_income = await insert_income(message, data)
